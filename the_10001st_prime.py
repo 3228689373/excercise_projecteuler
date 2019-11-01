@@ -236,7 +236,7 @@ def get_primes_list3(n):
     blarr[0] = False
     blarr[1] = False
     blarr[2] = True
-    for i in range(2,n+1,2):
+    for i in range(3,n+1,2):
         if(blarr[i]):
             j = 2*i
             while(j<=n):
