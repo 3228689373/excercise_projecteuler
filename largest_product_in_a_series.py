@@ -42,7 +42,7 @@ def mul_arr(arr):
         rslt = rslt * each
     return(rslt)
 
-def get_largest_product_in_a_series(arr,win_size=13)
+def get_largest_product_in_a_series(arr,win_size=13):
     wins = get_win_arr(arr,win_size)
     wins = list(filter(lambda ele:not(0 in ele),wins))
     wins = list(map(lambda ele:sorted(ele),wins))
